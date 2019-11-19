@@ -28,8 +28,8 @@ holiday_hash
 end
 
 def all_winter_holiday_supplies(holiday_hash)
-  new_holiday_hash = []
-  holiday_hash[:winter].each do |holiday, value|
+  
+  winter = holiday_hash[:winter].each do |holiday, value|
    end 
   new_holiday_hash.flatten
 end
