@@ -45,5 +45,5 @@ end
 
 holiday_hash.map do |season, holiday|
   holiday.map do |holiday, item|
-
+    item.include?("BBQ")
 #end
