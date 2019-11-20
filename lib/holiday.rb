@@ -40,7 +40,7 @@ def all_supplies_in_holidays(holiday_hash)
   holiday.each do |second_holiday, item|
     
     puts "  #{second_holiday.to_s.split{"_"}.map{|a| a.capitalize}.join(" ")}: #{item.join(", ")}"
-  end
+    end
   end
 end
 
